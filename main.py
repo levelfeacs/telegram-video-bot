@@ -9,7 +9,7 @@ import asyncio
 
 # Настройка
 logging.basicConfig(level=logging.INFO)
-BOT_TOKEN = os.getenv("8475704655:AAFt-ukcsAZtpnYVNGmy9cXWANPLDJviMsE")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # API-ключи для Pyrogram (для Premium-аккаунта)
 # Замените на свои, когда получите аккаунт
@@ -96,4 +96,5 @@ async def main() -> None:
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
