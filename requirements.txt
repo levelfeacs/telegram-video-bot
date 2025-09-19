@@ -1,0 +1,5 @@
+aiogram
+pyrogram
+yt-dlp
+ffmpeg-python
+python-dotenv
